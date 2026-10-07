@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Roza 💕</title>
+  <meta name="description" content="A little birthday world made with love for Maisha Mushrak Roza." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="hearts" aria-hidden="true"></div>
+
+  <section id="loginScreen" class="screen login-screen">
+    <div class="login-card">
+      <div class="heart-icon">♥</div>
+      <p class="eyebrow">A little surprise for</p>
+      <h1>Roza</h1>
+      <p class="subtitle">Only someone special can open this. ✨</p>
+      <form id="loginForm">
+        <label for="password">Oi Password deo </label>
+        <div class="password-wrap">
+          <input id="password" type="password" inputmode="numeric" maxlength="4" placeholder="••••" autocomplete="off" />
+          <button type="button" id="togglePassword" aria-label="Show password">👁</button>
+        </div>
+        <button class="primary-btn" type="submit">Open Your Surprise 💖</button>
+        <p id="loginError" class="error" aria-live="polite"></p>
+      </form>
+      <p class="tiny">Hint :  Amar phone er pincode.</p>
+    </div>
+  </section>
+
+  <main id="site" class="hidden">
+    <header class="hero">
+      <nav>
+        <div class="brand"> Baijid + Maisha <span>♥</span></div>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow">October 9 • Your Birthday</p>
+        <h1>Many Many Happy Returns of the Day,<br><span>💕Roza</span> 💕</h1>
+        <p class="hero-copy">আজ তোমার শুভ জন্মদিন । আল্লাহ তোমার সকল মনের আশা পুড়ন করুক। </p>
+        <div class="hero-actions">
+          <button class="primary-btn" id="wishBtn">Make a Wish ✨</button>
+          <button class="secondary-btn" id="videoBtn">▶ A video for you </button>
+        </div>
+      </div>
+      <div class="scroll-cue">Scroll to see our little story ↓</div>
+    </header>
+
+    <section class="section countdown-section">
+      <div class="section-heading">
+        <p class="eyebrow">Counting down to</p>
+        <h2>Your next birthday moment</h2>
+      </div>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section story-section">
+      <div class="section-heading left">
+        <p class="eyebrow">Chapter one</p>
+        <h2>Where our story began</h2>
+      </div>
+      <div class="story-card first-meet-card">
+        <div class="photo-wrap tall"><img src="IMG_20260324_154300791.jpg" alt="A memory from our first meeting" /></div>
+        <div class="story-copy">
+          <span class="date-pill">Our First Meet</span>
+          <h3>One moment. One memory. A thousand feelings.</h3>
+          <p>আমাদের প্রথম দেখা করা । একটু লজ্জা পাচ্ছিলাম but অনেক খুশিও ছিলাম । কারন তোমাকে এই প্রথম আলাদা ভাবে এত কাছে থেকে দেখতে পেয়েছিলাম । যাকে অনেক বেশি ভালবেসেছি তার সাথে দেখা করব আর খুশি হব না । প্রথম তোমার হাত ধরেছিলাম তুমি হয় ত জান কি পরিমাণ আমি খুশি ছিলাম । নিজেই নিজেকে promise করেছিলাম এই হাত কখনো ছাড়ব না 
+।  ।  ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section memories-section">
+      <div class="section-heading">
+        <p class="eyebrow">Chapter two</p>
+        <h2>Little pieces of us</h2>
+        <p>আমাদের কিছু মুহূর্ত । তোমার সাথে কাটানো সব মুহূর্ত আমার জন্য খুব Special । </p>
+      </div>
+      <div class="memory-grid">
+        <article class="memory-card">
+          <div class="photo-wrap"><img src="Screenshot_20260418-221410.png" alt="A happy memory together" /></div>
+          <div class="memory-text"><span>Amader lukiye lukiye kotha bola</span><h3>Just us, being us.</h3><p>তোমার  সাথে ঘণ্টার পর ঘণ্টা video call এ কথা বলা অনেক miss করি । সকালে ঘুম থেকে উঠে তোমার message এর জন্য অপেক্ষা করা কখন মা চলে যাবে আর তুমি আমাকে message করবে খুব miss করি । আমার উপর তোমার অধিকার দেখানো খুব miss করি । অনেক বেশি ভালোবাসি তোমাকে তমি কি বুঝ না । </p></div>
+        </article>
+        <article class="memory-card">
+          <div class="photo-wrap"><img src="IMG_20260404_105907522 (1).jpg" alt="A video-call memory" /></div>
+          <div class="memory-text"><span>Amader dekha kora</span><h3>Even from far away.</h3><p>তোমাকে দেখার যে আমার ইচ্ছা তোমাকে বলে বোঝাতে পারব না । তোমাকে একটা নজর দেখার জন্য কত কিছুই না করতাম । কারণে অকারনে তোমার বাসায় যেতাম শুধু তোমাকে একবার দেখার জন্য । 
+তোমাকে দেখার জন্য ঘণ্টার পর ঘণ্টা দারিয়ে থাকতাম তোমার জন্য । কখন তোমার ছুটি হবে কখন তুমি আসবা । তোমার হাতে হাত রেখে হাটা । অনেক miss করি । তোমাকে কিভাবে যে বোঝাবো যে তোমার মায়ায় পরে গেছি আমি । </p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wish-section">
+      <div class="wish-overlay"></div>
+      <div class="wish-content">
+        <div class="big-heart">♥</div>
+        <p class="eyebrow">My birthday wish for you</p>
+        <h2>May your smile stay bright,<br>your heart stay peaceful,<br>and your dreams find you.</h2>
+        <p>Happy Birthday, Maisha. Thank you for being one of the most beautiful chapters of my life. Here's to more laughter, more memories, and more days that become stories we tell forever.</p>
+        <button class="primary-btn" id="confettiBtn">Celebrate! 🎉</button>
+      </div>
+    </section>
+    
+    <section class="section story-section">
+      <div class="section-heading left">
+        <p class="eyebrow">The mistake i made </p>
+        <h2>Sorry for Everything </h2>
+      </div>
+      <div class="story-card first-meet-card">
+        <div class="photo-wrap tall"><img src="soft.jpg" alt="A memory from our first meeting" /></div>
+        <div class="story-copy">
+          <span class="date-pill">Please forgive me what i did</span>
+          <h3>Never thought this will happen</h3>
+          <p>কখনো ভাবিনি এভাবে সব শেষ হয়ে যাবে । সত্যি অনেক ভালবাসছিলাম তোমাকে । কখনো হারাতে চাই নাই তোমাকে । আমি জানি না আমার কি ভুল ছিল যে তুমি আমাকে এভাবে ছেড়ে দিলা । অনেক চেষ্টা করেছি তোমাকে বোঝানোর যে আমি অনেক ভালোবাসি তোমাকে । কোনদিন কারো কাছে এইভাবে নত স্বীকার  করি নাই । সব ego বাদ দিয়ে বার বার তোমার কাছে যেতাম তোমাকে বোঝানোর চেষ্টা করতাম । তুমি হয় তো জানো না তোমার ওই আচরণে অনেক কষ্ট পেতাম । আমি কান্না ও করতাম but যাই হওক আমার কান্না তো তোমার কাছে নাটক মনে হয় । আমি আর নিতে পারতেছি না অনেক কষ্ট হয় আমার । আমার Dengue fever হয়েছিল ২ সাপ্তাহ আগে তাই আমি আস্তে পারি নাই । তুমি new insta accaount খুলচিলা 21 septemer ।  আমি কিভাভে জানি এইটাই  হয়ত ভাবতেছ  । তাহলে শুন আমি প্রতিদিন insta তে ঢুকে তোমার name দিয়ে খুজতাম । ওই দিন দেখলাম Roza_091013 দিয়ে একটা new accaount খোলা বুঝতে আর দেরি হল না ওইটা তোমার accaount । আমি তখন hospital ছিলাম । ওই week এ আমি আসতে পারি নাই alohar বাইরে । but তার পরের week এ আমি আসছিলাম but তুমি আসো নাই । তাই insta তে তোমাকে follow দিয়েছিলাম but তুমি তো accaount e  deactivate  করে দিলে। এতটা অবিশ্বাস আমার প্রতি তোমার । 😔
+।  ।  </p>
+        </div>
+      </div>
+    </section>
+     <section class="section final-section">
+      <div class="final-card">
+        <h2>অনেক বেশি বিরক্ত করে ফেলছি তোমাকে I'm so sorry for everything </h2>
+       <h3>যাই হউক ভাল থেকো as a Birthday gift আজকের পর থেকে তোমাকে আর বিরক্ত করব না । আর তোমার কাছে আসব না । হে আজ তোমার জন্মদিন তাই আজ আসব alohar সামনে যদি তোমাকে দেখতে পাই সেস বারের মত । যদি তুমি আস । </h3>
+       <h2>😊</h2>
+      </div>
+    </section>
+
+
+    <section class="section final-section">
+      <div class="final-card">
+        <p class="eyebrow">By the way once again...</p>
+        <h2>Many Many Happy Returns of the Day, <span>Maisha Mushrak Roza</span> ❤️</h2>
+        <h3>May god bless you with endless joy and happiness on your special day. live a long life filled with love and laughter.</h3>
+        <div class="signature">Once again thank you for everything<br><b>Thank you for the memories ♥</b></div>
+        <h4>Thank you for teaching me a lesson of life 💕</h4>
+      </div>
+    </section>
+
+    <footer>Made with love for the person i loved • 09 October</footer>
+  </main>
+
+  <div id="videoModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Birthday video">
+    <button id="closeModal" class="close-btn" aria-label="Close">×</button>
+    <video id="birthdayVideo" controls playsinline preload="metadata">
+      <source src="VID_20261006_192038456.mp4" type="video/mp4" />
+      Expresing my Love for you, I love you Roza  💕
+    </video>
+  </div>
+
+  <div id="wishModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Birthday wish">
+    <div class="wish-modal-card">
+      <div class="big-heart">♥</div>
+      <h2>Close your eyes, Roza..</h2>
+      <p>🌙✨Make a wish. 🌙✨</p>
+      <p class="small">তোমার সব ইচ্ছা পুড়ন হউক .</p>
+      <button class="primary-btn" id="closeWish">I made my wish 💗</button>
+    </div>
+  </div>
+
+  <audio id="ambientAudio" loop>
+    <source src="assets/ambient.mp3" type="audio/mpeg" />
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
